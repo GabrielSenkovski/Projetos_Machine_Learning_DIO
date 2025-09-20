@@ -1,0 +1,14 @@
+# Ambiente Virtual e Segredos
+venv/
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos de Sistema Operacional
+.DS_Store
+
+# Configurações de IDEs Comuns
+.vscode/
+.idea/
