@@ -1,0 +1,13 @@
+classes = 4
+train = data/train.txt
+valid = data/valid.txt
+names = data/obj.names
+backup = backup/
+
+print("✅ Arquivo 'obj.data' corrigido com sucesso!")
+
+# Navega para a pasta do darknet, se necessário
+%cd /content/darknet
+
+# Mostra o conteúdo do arquivo de configuração
+!cat data/obj.data
